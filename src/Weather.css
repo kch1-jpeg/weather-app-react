@@ -44,7 +44,7 @@ body {
   text-transform: capitalize;
 }
 
-.Weather overview {
+.Weather .overview {
   margin-bottom: 20px;
 }
 .Weather img {
@@ -63,7 +63,7 @@ body {
   position: relative;
   font-size: 16px;
   top: -34px;
-  margin-left: 5px;
+  margin-left: 0px;
 }
 
 .Weather .temperature .active:hover {
