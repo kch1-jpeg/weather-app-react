@@ -1,5 +1,120 @@
-.Weather{
+.Weather {
   padding: 20px;
   border: 1px solid rgb(255, 194, 203);
   border-radius: 5px;
+  max-width: 600px;
+  margin: 30px auto;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  color: rgb(255, 0, 128);
+}
+
+.Weather h1 {
+  text-align: center;
+  font-size: 64px;
+  font-weight: 100;
+  line-height: 28.8px;
+  margin-bottom: 5;
+  margin-top: 5;
+}
+.Weather form {
+  margin-bottom: 20px;
+}
+.Weather ul {
+  margin: 0;
+  padding: 0;
+}
+.current-time {
+  color: #89cff0;
+  font-size: 14px;
+  margin-top: 0;
+  text-align: right;
+}
+.Weather li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  font-size: 14px;
+  font-weight: 100;
+  line-height: 19px;
+}
+.Weather li:first-letter {
+  text-transform: capitalize;
+}
+.weather-app-wrapper {
+  max-width: 600px;
+  margin: 30px auto;
+}
+.weather-app {
+  padding: 20px;
+  border: 1px solid rgb(255, 194, 203);
+  border-radius: 5px;
+}
+.overview {
+  margin-bottom: 20px;
+}
+.weather-temperature img {
+  margin-right: 5px;
+  height: 64px;
+  width: 64px;
+}
+.weather-temperature strong {
+  font-size: 64px;
+  line-height: 1;
+  font-weight: 400;
+}
+.weather-temperature .units {
+  position: relative;
+  font-size: 16px;
+  top: -34px;
+}
+
+.weather-temperature .active:hover {
+  text-decoration: none;
+}
+.weather-forecast {
+  margin-top: 22px;
+  text-align: center;
+  color: rgb(255, 0, 128);
+}
+.weather-forecast-date {
+  font-size: 18px;
+  opacity: 0.9;
+  color: #89cff2;
+}
+.weather-forecast-temperature-min {
+  opacity: 0.5;
+}
+.weather-forecast-temperatures {
+  font-size: 16px;
+  color: #878787;
+}
+.desc {
+  color: #878787;
+}
+
+.search-button {
+  color: rgb(255, 194, 203);
+  background: rgb(255, 0, 128);
+  border-radius: 80px;
+  opacity: 50;
+  border: none;
+  padding: 10px;
+}
+
+.search-button:hover {
+  background: rgb(255, 194, 203);
+  color: rgb(255, 0, 128);
+  border-radius: 50px;
+  cursor: grab;
+  opacity: 50;
+}
+.weather-forecast-day:hover {
+  background: rgb(255, 194, 203);
+  color: rgb(255, 0, 128);
+  border-radius: 50px;
+  cursor: point;
+  opacity: 50;
 }
