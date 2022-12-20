@@ -66,6 +66,7 @@ body {
 }
 .Weather .unit a {
   text-decoration: none;
+  color: #89cff2;
 }
 
 .Weather .temperature .active:hover {
