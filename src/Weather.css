@@ -47,19 +47,25 @@ body {
 }
 .Weather canvas {
   margin-right: 5px;
-  margin-top:5px;
+  margin-top: 5px;
   display: inline-block;
+  float: left;
 }
 .Weather .temperature {
   font-size: 64px;
   line-height: 1;
   font-weight: 400;
+  float: left;
 }
 .Weather .unit {
   position: relative;
   font-size: 16px;
-  top: -34px;
+  top: -1px;
   margin-left: 0px;
+  float: left;
+}
+.Weather .unit a {
+  text-decoration: none;
 }
 
 .Weather .temperature .active:hover {
