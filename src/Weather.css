@@ -48,7 +48,6 @@ body {
 .Weather canvas {
   margin-right: 5px;
   margin-top: 5px;
-  display: inline-block;
   float: left;
 }
 .Weather .temperature {
@@ -76,5 +75,3 @@ body {
 .desc {
   color: #878787;
 }
-
-
