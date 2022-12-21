@@ -1,0 +1,40 @@
+.weather-forecast {
+  margin-top: 22px;
+  text-align: center;
+  color: rgb(255, 0, 128);
+}
+.weather-forecast-date {
+  font-size: 18px;
+  opacity: 0.9;
+  color: #89cff2;
+}
+.weather-forecast-temperature-min {
+  opacity: 0.5;
+}
+.weather-forecast-temperatures {
+  font-size: 16px;
+  color: #878787;
+}
+.search-button {
+  color: rgb(255, 194, 203);
+  background: rgb(255, 0, 128);
+  border-radius: 80px;
+  opacity: 50;
+  border: none;
+  padding: 10px;
+}
+
+.search-button:hover {
+  background: rgb(255, 194, 203);
+  color: rgb(255, 0, 128);
+  border-radius: 50px;
+  cursor: grab;
+  opacity: 50;
+}
+.weather-forecast-day:hover {
+  background: rgb(255, 194, 203);
+  color: rgb(255, 0, 128);
+  border-radius: 50px;
+  cursor: point;
+  opacity: 50;
+}
