@@ -9,7 +9,6 @@ export default function WeatherInfo(props) {
       <div>
         <h1 className="mb-3">{props.data.city}</h1>
         <ul className="mb-3">
-          <li className="current-time">Wednesday 7:00</li>
           <li>
             <FormattedDate date={props.data.date} />{" "}
           </li>
