@@ -6,7 +6,7 @@
 }
 
 body {
-  font-family: Arial, sans-serif;
+  font-family: "Poppins", sans-serif;
   color: rgb(255, 0, 128);
 }
 
@@ -24,10 +24,10 @@ body {
   margin: 0;
   padding: 0;
 }
-.Weather .current-time {
-  color: #89cff0;
+.Weather .desc {
+  color: #878787;
   font-size: 14px;
-  margin-top: 0;
+  margin-top: -40px;
   text-align: right;
 }
 .Weather li {
@@ -70,8 +70,4 @@ body {
 
 .Weather .temperature .active:hover {
   text-decoration: none;
-}
-
-.desc {
-  color: #878787;
 }

@@ -1,6 +1,6 @@
 .WeatherForecast {
   margin-top: 22px;
-  text-align: center;
+  text-align: left;
   color: rgb(255, 0, 128);
 }
 .weather-forecast-date {
@@ -29,12 +29,5 @@
   color: rgb(255, 0, 128);
   border-radius: 50px;
   cursor: grab;
-  opacity: 50;
-}
-.weather-forecast-day:hover {
-  background: rgb(255, 194, 203);
-  color: rgb(255, 0, 128);
-  border-radius: 50px;
-  cursor: point;
   opacity: 50;
 }

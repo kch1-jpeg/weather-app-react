@@ -1,4 +1,3 @@
-
 import "./App.css";
 import Weather from "./Weather";
 
@@ -6,17 +5,21 @@ function App() {
   return (
     <div className="App">
       <div className="container">
-        <Weather defaultCity="Lisbon"/>
+        <Weather defaultCity="Lisbon" />
         <header className="App-header"></header>
         <footer>
-          <a href="https://github.com/kch1-jpeg/weather-app-react">
-            Open Source Code 
+          <a
+            href="https://github.com/kch1-jpeg/weather-app-react"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Open Source Code
           </a>
-           by Kira
+          by Kira
         </footer>
       </div>
     </div>
-  ); 
+  );
 }
 
 export default App;
