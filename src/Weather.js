@@ -3,6 +3,8 @@ import "./Weather.css";
 import axios from "axios";
 import WeatherForecast from "./WeatherForecast";
 import WeatherInfo from "./WeatherInfo";
+import { BarLoader } from "react-spinner-animated";
+import "react-spinner-animated/dist/index.css";
 
 export default function Weather(props) {
   const [weatherData, setWeatherData] = useState({ ready: false });
@@ -57,11 +59,19 @@ export default function Weather(props) {
           </div>
         </form>
         <WeatherInfo data={weatherData} size="56" />
-        <WeatherForecast coordinates={weatherData.coordinates}/>
+        <WeatherForecast coordinates={weatherData.coordinates} />
       </div>
     );
   } else {
     search();
-    return "Loading...";
+    return (
+      <BarLoader
+        text={"Loading..."}
+        bgColor={"pink"}
+        center={false}
+        width={"150px"}
+        height={"150px"}
+      />
+    );
   }
 }
